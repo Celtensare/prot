@@ -1,0 +1,116 @@
+@font-face {
+ font-family: WorkSans-Light;
+ src: url("../theme/fonts/WorkSans-Light.ttf");
+}
+@font-face {
+ font-family: worksans-semibold;
+ src: url("../theme/fonts/WorkSans-Semibold.ttf");
+}
+.mt105 {
+        margin-top: 105px
+}
+
+.nav-link {
+        font-family: WorkSans-Light;
+        color: black;
+        font-size: 20px;
+}
+
+.main-topleft {
+    background: url(../img/background-1.jpg)no-repeat;
+    background-size: cover;
+    height: 805px;
+    
+}   
+.main-bottleft {
+    background: url(../img/background-3.jpg)no-repeat;
+    background-size: cover;
+    height: 796px;
+
+}   
+.main-topright {
+    background: url(../img/background-2.jpg)no-repeat;
+   background-size: cover;
+    height: 796px;
+}
+.main-bottright {
+    background: url(../img/background-4.jpg)no-repeat;
+   background-size: cover;
+    height: 796px;
+}
+.confiance {
+        height: 555px;
+        text-align: center;
+        background-color: #F3F3F2;
+}
+.partenaire {
+        height: 555px;
+        text-align: center;
+}
+.confiance h3, .partenaire h3 {
+        font-family: worksans-semibold;
+        color: #F4982B;
+        text-align: center;
+        font-size: 36px
+        
+}
+.confiance hr, .partenaire hr {
+       margin-top:25px;
+       border-top: 2px solid #73CAEB;
+}
+.contact-wrapper {
+        background: url('../img/background-contact.jpg') no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index:1;
+        height: 965px
+}
+.contact {
+        background-color: white;
+        width: 590px;
+        top: 250px;
+        left: 190px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        position: absolute;
+        z-index: 2
+}
+.contactlogo {
+        text-align: center;
+       
+}
+.infocontact {
+        list-style-type: none;
+        margin: 0 auto;
+        width: 345px
+}
+.litel {
+        background: url('../img/tel.png')no-repeat;
+        padding: 10px 0 10px 55px;
+}
+.limail {
+        background: url('../img/mail.png')no-repeat;
+        padding: 10px 0 10px 55px;
+}
+.liaddr {
+        background: url('../img/adresse.png')no-repeat;
+        padding: 10px 0 10px 55px;
+}
+.lisoc {
+        background: url('../img/suivez-nous.png')no-repeat;
+        padding: 10px 0 10px 55px;
+}
+.contactform {
+        background-color: #F4982B;
+        height:496px;
+        width: 590px;
+        top: 365px;
+        right: 210px;
+        position: absolute;
+        z-index: 3
+}
+
+
+.nopadd {
+        padding: 0
+}
